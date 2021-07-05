@@ -1,0 +1,5 @@
+#Dependencias
+node_modules/
+
+#Outros
+.DS_Store
