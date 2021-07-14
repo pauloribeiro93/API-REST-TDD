@@ -3,10 +3,10 @@ module.exports = {
     test: {
         client: 'pg',
         version:'9.6',
-        conection: {
+        connection: {
             host: 'localhost',
-            user: 'postgres',
-            password: 'ane130',
+            user: jest.env('usuario'),
+            password: jest.env('senha'),
             database: 'barriga'
         },
         migrations: {
@@ -14,3 +14,6 @@ module.exports = {
         },
     },
 }
+
+
+jest.env('senha')

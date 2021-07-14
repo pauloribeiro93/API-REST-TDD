@@ -3,3 +3,6 @@ node_modules/
 
 #Outros
 .DS_Store
+
+#Secret
+jest.env.json
