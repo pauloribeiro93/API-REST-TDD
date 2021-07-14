@@ -5,8 +5,8 @@ module.exports = {
         version:'9.6',
         connection: {
             host: 'localhost',
-            user: jest.env('usuario'),
-            password: jest.env('senha'),
+            user: 'usuario',
+            password: 'senha',
             database: 'barriga'
         },
         migrations: {
@@ -16,4 +16,3 @@ module.exports = {
 }
 
 
-jest.env('senha')
